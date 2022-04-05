@@ -1,5 +1,7 @@
 *{
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -16,19 +18,21 @@ body{
 }
 
 .herosection_1{
-    width: 100vw;
+    width: 99vw;
     height:100vh;
-    background: url(../nerolink/image/homepage1.jpg);
+    background: url(homepage1.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: rgb(225, 138, 24);
+    overflow: hidden;
     box-sizing: border-box;
 
 }
-nav a{
+.nav_alink a{
+    padding: 0;
     margin: 0;
 }
+
 
 header{
     width: 100%;
@@ -71,7 +75,7 @@ header{
 .hero_inner_body_2{
     width: 90vw;
     height: 90vh;
-    background-color: yellow;
+    
 
 }
 .part1{
@@ -90,10 +94,12 @@ header{
 .section_3{
     width: 100vw;
     height:70vh;
-    background-image: url(../nerolink/image/homepage-footer.jpg);
+    background-image: url(homepage-footer.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-color: bisque;
+    overflow: hidden;
+   
+    
 }
 footer{
     color: #858686;
@@ -111,8 +117,16 @@ footer li:hover{
     color: black;
 
 }
+.pop_up a{
+    background-color: #858686;
+text-decoration: none;
+color: black;
+font-size: 18px;
 
-
+}
+.pop_up a:hover{
+    color: #858686;
+}
 
 
 
